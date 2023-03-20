@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace QUnoMaui;
+namespace Mooville.QUno.Maui;
 
 public static class MauiProgram
 {

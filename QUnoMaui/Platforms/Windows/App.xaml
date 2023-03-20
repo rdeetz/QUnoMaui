@@ -1,8 +1,8 @@
 ﻿<maui:MauiWinUIApplication
-    x:Class="QUnoMaui.WinUI.App"
+    x:Class="Mooville.QUno.Maui.WinUI.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:maui="using:Microsoft.Maui"
-    xmlns:local="using:QUnoMaui.WinUI">
+    xmlns:local="using:Mooville.QUno.Maui.WinUI">
 
 </maui:MauiWinUIApplication>

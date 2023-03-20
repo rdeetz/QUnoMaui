@@ -1,4 +1,4 @@
-﻿namespace QUnoMaui;
+﻿namespace Mooville.QUno.Maui;
 
 public partial class MainPage : ContentPage
 {

@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace QUnoMaui;
+namespace Mooville.QUno.Maui;
 
 public class Program
 {
