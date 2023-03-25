@@ -33,61 +33,62 @@
 		<Copyright>Copyright (c) 2023 Roger Deetz. All rights reserved,</Copyright>
 		<AssemblyVersion>7.0.0.0</AssemblyVersion>
 		<FileVersion>7.0.0.0</FileVersion>
+		<DefaultLanguage>en-US</DefaultLanguage>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
 	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
 	  <ApplicationId>com.moovile.quno.maui</ApplicationId>
-	  <ApplicationDisplayVersion>7.0.0</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>7.0.1</ApplicationDisplayVersion>
 	  <ApplicationVersion>7</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-ios|AnyCPU'">
 	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
 	  <ApplicationId>com.moovile.quno.maui</ApplicationId>
-	  <ApplicationDisplayVersion>7.0.0</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>7.0.1</ApplicationDisplayVersion>
 	  <ApplicationVersion>7</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-maccatalyst|AnyCPU'">
 	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
 	  <ApplicationId>com.moovile.quno.maui</ApplicationId>
-	  <ApplicationDisplayVersion>7.0.0</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>7.0.1</ApplicationDisplayVersion>
 	  <ApplicationVersion>7</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-maccatalyst|AnyCPU'">
 	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
 	  <ApplicationId>com.moovile.quno.maui</ApplicationId>
-	  <ApplicationDisplayVersion>7.0.0</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>7.0.1</ApplicationDisplayVersion>
 	  <ApplicationVersion>7</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android33.0|AnyCPU'">
 	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
 	  <ApplicationId>com.moovile.quno.maui</ApplicationId>
-	  <ApplicationDisplayVersion>7.0.0</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>7.0.1</ApplicationDisplayVersion>
 	  <ApplicationVersion>7</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-android33.0|AnyCPU'">
 	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
 	  <ApplicationId>com.moovile.quno.maui</ApplicationId>
-	  <ApplicationDisplayVersion>7.0.0</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>7.0.1</ApplicationDisplayVersion>
 	  <ApplicationVersion>7</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-windows10.0.19041.0|AnyCPU'">
 	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
 	  <ApplicationId>com.moovile.quno.maui</ApplicationId>
-	  <ApplicationDisplayVersion>7.0.0</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>7.0.1</ApplicationDisplayVersion>
 	  <ApplicationVersion>7</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-windows10.0.19041.0|AnyCPU'">
 	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
 	  <ApplicationId>com.moovile.quno.maui</ApplicationId>
-	  <ApplicationDisplayVersion>7.0.0</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>7.0.1</ApplicationDisplayVersion>
 	  <ApplicationVersion>7</ApplicationVersion>
 	</PropertyGroup>
 
