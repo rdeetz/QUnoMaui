@@ -1,7 +1,11 @@
-using Foundation;
+// <copyright file="AppDelegate.cs" company="Mooville">
+//   Copyright © 2024 Roger Deetz. All rights reserved.
+// </copyright>
 
-namespace QUnoMaui.Mac
+namespace Mooville.QUno.Maui.Mac
 {
+    using Foundation;
+
     [Register(nameof(AppDelegate))]
     public class AppDelegate : MauiUIApplicationDelegate
     {
