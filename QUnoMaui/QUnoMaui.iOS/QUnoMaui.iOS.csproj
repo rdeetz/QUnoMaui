@@ -8,6 +8,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<UseMaui>true</UseMaui>
 		<TargetFrameworks>net8.0-ios</TargetFrameworks>
+		<RootNamespace>Mooville.QUno.Maui.iOS</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>
