@@ -1,4 +1,8 @@
-﻿namespace QUnoMaui
+﻿// <copyright file="MainPage.xaml.cs" company="Mooville">
+//   Copyright © 2024 Roger Deetz. All rights reserved.
+// </copyright>
+
+namespace Mooville.QUno.Maui
 {
     public partial class MainPage : ContentPage
     {
@@ -6,19 +10,26 @@
 
         public MainPage()
         {
-            InitializeComponent();
+            this.InitializeComponent();
+            this.buttonCounter.Clicked += this.buttonCounter_Clicked;
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void buttonCounter_Clicked(object sender, EventArgs e)
         {
-            count++;
+            this.count++;
 
             if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
+            {
+                this.buttonCounter.Text = $"Clicked {count} time";
+            }
             else
-                CounterBtn.Text = $"Clicked {count} times";
+            {
+                this.buttonCounter.Text = $"Clicked {count} times";
+            }
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            SemanticScreenReader.Announce(buttonCounter.Text);
+
+            return;
         }
     }
 

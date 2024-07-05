@@ -6,6 +6,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<UseMaui>true</UseMaui>
 		<Nullable>enable</Nullable>
+		<RootNamespace>Mooville.QUno.Maui</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -24,6 +25,12 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.61" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.61" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="QUnoLibrary">
+	    <HintPath>..\..\Library\$(Configuration)\QUnoLibrary.dll</HintPath>
+	  </Reference>
 	</ItemGroup>
 
 </Project>

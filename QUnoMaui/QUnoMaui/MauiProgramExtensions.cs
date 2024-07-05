@@ -1,7 +1,11 @@
-﻿using Microsoft.Extensions.Logging;
+﻿// <copyright file="MauiProgramExtensions.cs" company="Mooville">
+//   Copyright © 2024 Roger Deetz. All rights reserved.
+// </copyright>
 
-namespace QUnoMaui
+namespace Mooville.QUno.Maui
 {
+    using Microsoft.Extensions.Logging;
+
     public static class MauiProgramExtensions
     {
         public static MauiAppBuilder UseSharedMauiApp(this MauiAppBuilder builder)

@@ -1,12 +1,16 @@
-﻿namespace QUnoMaui
+﻿// <copyright file="App.xaml.cs" company="Mooville">
+//   Copyright © 2024 Roger Deetz. All rights reserved.
+// </copyright>
+
+namespace Mooville.QUno.Maui
 {
     public partial class App : Application
     {
         public App()
         {
-            InitializeComponent();
+            this.InitializeComponent();
 
-            MainPage = new AppShell();
+            this.MainPage = new AppShell();
         }
     }
 }
