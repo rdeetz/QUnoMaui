@@ -1,8 +1,12 @@
-using Android.App;
-using Android.Runtime;
+// <copyright file="MainApplication.cs" company="Mooville">
+//   Copyright © 2024 Roger Deetz. All rights reserved.
+// </copyright>
 
-namespace QUnoMaui.Droid
+namespace Mooville.QUno.Maui.Droid
 {
+    using Android.App;
+    using Android.Runtime;
+
     [Application]
     public class MainApplication : MauiApplication
     {

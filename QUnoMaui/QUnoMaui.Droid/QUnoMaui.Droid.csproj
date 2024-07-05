@@ -7,6 +7,7 @@
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<UseMaui>true</UseMaui>
+		<RootNamespace>Mooville.QUno.Maui.Droid</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>
