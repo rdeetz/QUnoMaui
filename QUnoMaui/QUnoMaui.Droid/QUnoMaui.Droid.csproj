@@ -8,6 +8,28 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<UseMaui>true</UseMaui>
 		<RootNamespace>Mooville.QUno.Maui.Droid</RootNamespace>
+		<PackageId>Mooville.QUno.Maui.Droid</PackageId>
+		<Title>QUno</Title>
+		<Version>$(ApplicationDisplayVersion)</Version>
+		<Product>QUno</Product>
+		<Description>An Uno-like card game.</Description>
+		<Copyright>Copyright (c) Roger Deetz. All rights reserved.</Copyright>
+		<AssemblyVersion>8.0.0.1</AssemblyVersion>
+		<FileVersion>8.0.0.1</FileVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <ApplicationTitle>QUno MAUI</ApplicationTitle>
+	  <ApplicationId>com.mooville.quno.maui</ApplicationId>
+	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
+	  <ApplicationVersion>0</ApplicationVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <ApplicationTitle>QUno MAUI</ApplicationTitle>
+	  <ApplicationId>com.mooville.quno.maui</ApplicationId>
+	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
+	  <ApplicationVersion>0</ApplicationVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
