@@ -14,7 +14,7 @@ namespace Mooville.QUno.Maui
             this.buttonCounter.Clicked += this.buttonCounter_Clicked;
         }
 
-        private void buttonCounter_Clicked(object sender, EventArgs e)
+        private void buttonCounter_Clicked(object? sender, EventArgs e)
         {
             this.count++;
 
