@@ -62,32 +62,32 @@
 		<HasPackageAndPublishMenu>true</HasPackageAndPublishMenu>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
-	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationTitle>QUno MAUI</ApplicationTitle>
 	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
 	  <ApplicationVersion>8</ApplicationVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationTitle>QUno MAUI</ApplicationTitle>
 	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
 	  <ApplicationVersion>8</ApplicationVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
-	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationTitle>QUno MAUI</ApplicationTitle>
 	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
 	  <ApplicationVersion>8</ApplicationVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
-	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationTitle>QUno MAUI</ApplicationTitle>
 	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
 	  <ApplicationVersion>8</ApplicationVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationTitle>QUno MAUI</ApplicationTitle>
 	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
 	  <ApplicationVersion>8</ApplicationVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
-	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationTitle>QUno MAUI</ApplicationTitle>
 	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
 	  <ApplicationVersion>8</ApplicationVersion>
 	</PropertyGroup>

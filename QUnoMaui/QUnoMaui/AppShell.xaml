@@ -5,7 +5,7 @@
     xmlns:local="clr-namespace:Mooville.QUno.Maui"
     x:Class="Mooville.QUno.Maui.AppShell"
     Shell.FlyoutBehavior="Disabled"
-    Title="QUno for .NET MAUI">
+    Title="QUno MAUI">
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"

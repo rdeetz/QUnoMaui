@@ -18,14 +18,14 @@
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationTitle>QUno MAUI</ApplicationTitle>
 	  <ApplicationId>com.mooville.quno.maui</ApplicationId>
 	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
 	  <ApplicationVersion>8</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationTitle>QUno MAUI</ApplicationTitle>
 	  <ApplicationId>com.mooville.quno.maui</ApplicationId>
 	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
 	  <ApplicationVersion>8</ApplicationVersion>
