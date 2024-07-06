@@ -8,6 +8,26 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<UseMaui>true</UseMaui>
 		<RootNamespace>Mooville.QUno.Maui.Mac</RootNamespace>
+		<PackageId>Mooville.QUno.Maui.Mac</PackageId>
+		<Title>QUno</Title>
+		<Version>8.0.0</Version>
+		<Product>QUno</Product>
+		<Description>An Uno-like card game.</Description>
+		<Copyright>Copyright (c) Roger Deetz. All rights reserved.</Copyright>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <ApplicationTitle>QUno MAUI</ApplicationTitle>
+	  <ApplicationId>com.mooville.quno.maui</ApplicationId>
+	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
+	  <ApplicationVersion>8</ApplicationVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <ApplicationTitle>QUno MAUI</ApplicationTitle>
+	  <ApplicationId>com.mooville.quno.maui</ApplicationId>
+	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
+	  <ApplicationVersion>8</ApplicationVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
