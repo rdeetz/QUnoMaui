@@ -4,33 +4,13 @@
 
 namespace Mooville.QUno.Maui
 {
+    using Mooville.QUno.Maui.ViewModel;
+
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             this.InitializeComponent();
-            this.buttonCounter.Clicked += this.buttonCounter_Clicked;
-        }
-
-        private void buttonCounter_Clicked(object? sender, EventArgs e)
-        {
-            this.count++;
-
-            if (count == 1)
-            {
-                this.buttonCounter.Text = $"Clicked {count} time";
-            }
-            else
-            {
-                this.buttonCounter.Text = $"Clicked {count} times";
-            }
-
-            SemanticScreenReader.Announce(buttonCounter.Text);
-
-            return;
         }
     }
-
 }
