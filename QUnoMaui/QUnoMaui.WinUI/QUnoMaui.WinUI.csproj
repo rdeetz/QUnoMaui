@@ -16,6 +16,13 @@
 		<UseMaui>true</UseMaui>
 		<!-- We do not want XAML files to be processed as .NET MAUI XAML, but rather WinUI XAML. -->
 		<EnableDefaultMauiItems>false</EnableDefaultMauiItems>
+		<PackageId>Mooville.QUno.Maui.WinUI</PackageId>
+		<Title>QUno</Title>
+		<Version>8.0.0</Version>
+		<Product>QUno</Product>
+		<Description>An Uno-like card game.</Description>
+		<Copyright>Copyright (c) Roger Deetz. All rights reserved.</Copyright>
+		<ApplicationIcon>Assets\QUno.ico</ApplicationIcon>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -53,6 +60,36 @@
 	-->
 	<PropertyGroup Condition="'$(DisableHasPackageAndPublishMenuAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
 		<HasPackageAndPublishMenu>true</HasPackageAndPublishMenu>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
+	  <ApplicationVersion>8</ApplicationVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
+	  <ApplicationVersion>8</ApplicationVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
+	  <ApplicationVersion>8</ApplicationVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
+	  <ApplicationVersion>8</ApplicationVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
+	  <ApplicationVersion>8</ApplicationVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+	  <ApplicationTitle>QUno for MAUI</ApplicationTitle>
+	  <ApplicationDisplayVersion>8.0.0</ApplicationDisplayVersion>
+	  <ApplicationVersion>8</ApplicationVersion>
 	</PropertyGroup>
 
 </Project>
