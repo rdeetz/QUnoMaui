@@ -9,8 +9,12 @@ namespace Mooville.QUno.Maui
         public App()
         {
             this.InitializeComponent();
+        }
 
-            this.MainPage = new AppShell();
+        protected override Window CreateWindow(IActivationState? activationState)
+        {
+            var window = new Window(new AppShell());
+            return window;
         }
     }
 }
