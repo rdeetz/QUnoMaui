@@ -1,14 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">12.2</SupportedOSPlatformVersion>
+		<TargetFrameworks>net10.0-ios</TargetFrameworks>
 		<OutputType>Exe</OutputType>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<UseMaui>true</UseMaui>
-		<TargetFrameworks>net9.0-ios</TargetFrameworks>
-    <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
-    <RootNamespace>Mooville.QUno.Maui.iOS</RootNamespace>
+		<RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
+		<RootNamespace>Mooville.QUno.Maui.iOS</RootNamespace>
 		<PackageId>Mooville.QUno.Maui.iOS</PackageId>
 		<Title>QUno</Title>
 		<Version>9.0.0</Version>
@@ -32,9 +31,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="9.0.100" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.100" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.8" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.50" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="10.0.50" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.5" />
 	</ItemGroup>
 
 	<ItemGroup>
